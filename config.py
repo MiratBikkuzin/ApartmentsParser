@@ -1,3 +1,7 @@
+from fake_headers import Headers
+
+
+headers: Headers = Headers(True)
 russian_cities: dict = {
     'уфа': 'ufa',
     'москва': 'moskva',
